@@ -30,7 +30,8 @@
 			class="com.alibaba.dubbo.governance.web.common.interceptor.LocaleValve" />
 		<choose>
 			<when>
-				<pl-conditions:path-condition name="^/servicestatus/.+|^/status$|/favicon.ico|/sysinfo/dump.htm" />
+				<pl-conditions:path-condition
+					name="^/servicestatus/.+|^/status$|/favicon.ico|/sysinfo/dump.htm" />
 			</when>
 			<otherwise>
 				<valve

@@ -40,8 +40,10 @@
 		<loop>
 			<choose>
 				<when>
-				    <pl-conditions:target-extension-condition extension="json,jsonp,xml,xhtml" />
-				    <valve class="com.alibaba.citrus.extension.rpc.integration.RPCServiceHandlerValve" />
+					<pl-conditions:target-extension-condition
+						extension="json,jsonp,xml,xhtml" />
+					<valve
+						class="com.alibaba.citrus.extension.rpc.integration.RPCServiceHandlerValve" />
 				</when>
 				<when>
 					<!-- 执行不带模板的screen，默认无layout。 -->

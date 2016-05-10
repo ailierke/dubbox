@@ -41,8 +41,8 @@
 				<beans:value>/WEB-INF/i18n/message</beans:value>
 			</beans:list>
 		</beans:property>
-			<beans:property name="cacheSeconds" value="3" />
-			<beans:property name="fallbackToSystemLocale" value="false" />
-			<beans:property name="defaultEncoding" value="GBK" />
+		<beans:property name="cacheSeconds" value="3" />
+		<beans:property name="fallbackToSystemLocale" value="false" />
+		<beans:property name="defaultEncoding" value="GBK" />
 	</beans:bean>
 </beans:beans>

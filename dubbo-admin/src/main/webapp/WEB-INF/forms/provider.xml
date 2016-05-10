@@ -19,6 +19,6 @@
 			<services:field name="serviceParameters"></services:field>
 			<services:field name="serviceUrl"></services:field>
 		</services:group>
-		
+
 	</services:form>
 </beans:beans>
